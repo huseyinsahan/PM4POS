@@ -5,4 +5,4 @@ pm4py==2.7.2
 scikit_learn==1.2.2
 seaborn==0.13.2
 statsmodels==0.14.0
-streamlit==1.20.0
+streamlit==1.37.0
