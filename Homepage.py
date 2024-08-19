@@ -3,7 +3,7 @@ import pandas as pd
 import datetime as dt
 from utils import *
 
-st.set_page_config(page_title="POS Log Analysis", page_icon="📈")
+st.set_page_config(page_title="PM4PY", page_icon="📈")
 
 st.title('Welcome')
 st.header('LOGPOS - Log Analysis Dashboard for Point of Sales Context')
