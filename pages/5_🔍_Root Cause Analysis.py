@@ -2,6 +2,8 @@ import streamlit as st
 import datetime 
 import pandas as pd
 
+st.set_page_config(page_title="PM4PY")
+
 st.title('Root Cause Analysis')
 st.markdown("""Here root causes of """)
 

@@ -7,6 +7,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from utils import *
+
+st.set_page_config(page_title="PM4PY")
 st.title('Activity Analysis')
 st.markdown("""Here you can analyze the activity transitions in a heatmap. The main idea is to identify specific activity types resulting in bottlenecks.""")
 

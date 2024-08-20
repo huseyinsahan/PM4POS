@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
+st.set_page_config(page_title="PM4PY")
+
 st.title('POS Usage')
 st.markdown("""This section provides overview of POS device usage especially focusing on hours of days. Different than other section user don't specify PosID here.""")
 
