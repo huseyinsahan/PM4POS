@@ -5,9 +5,13 @@ from utils import *
 
 
 sample = pd.read_csv('cache.csv', index_col = 0)
+st.set_page_config(page_title="PM4PY - Process Discovery")
+
+st.title('Process Discovery')
+st.markdown("""Here you can discover the process benefitting from Directly Follows Graph along with its descriptive table.""")
 
 try:
-    data_prep(sample)
+    sample = data_prep(sample)
 except Exception as e:
     st.warning(e)
 

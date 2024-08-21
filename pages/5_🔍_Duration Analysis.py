@@ -2,10 +2,10 @@ import streamlit as st
 import datetime 
 import pandas as pd
 
-st.set_page_config(page_title="PM4PY")
+st.set_page_config(page_title="PM4PY - Duration Analysis")
 
-st.title('Root Cause Analysis')
-st.markdown("""Here root causes of """)
+st.title('Duration Analysis')
+st.markdown("""Here the attributes affecting duration of each order can be identified. For this purpose, suitable regression analysis structure is implemented.""")
 
 sample = pd.read_csv(('cache.csv'), index_col=0)
 sample['TimeStamp'] = pd.to_datetime(sample['TimeStamp'])

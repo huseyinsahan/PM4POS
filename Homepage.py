@@ -28,7 +28,7 @@ if uploaded_file:
 col_name_pair = st.checkbox('Pair column names and cache uploaded file')
 
 if col_name_pair:
-    sample = pd.read_csv('Trial_data.csv', index_col = 0)
+    sample = pd.read_csv(uploaded_file, index_col = 0)
     with st.form(key= 'Column_pair'):
         st.write('Select column names corresponding below event log columns')
         columns = list(sample.columns)
@@ -55,9 +55,6 @@ if col_name_pair:
         sample = sample.rename(columns=col_names)
         sample.to_csv('cache.csv')
         st.dataframe(sample)
-
-
-    #st.dataframe(sample)
 
 example = st.button('Continue with example restaurant data')
 
