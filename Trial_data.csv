@@ -1,4 +1,4 @@
-,POSID,Activity,TimeStamp,OrderID, OperatorID
+,PosID,Activity,TimeStamp,OrderID, OperatorID
 0,1,Start a pos order,2021-03-01 11:34:05,1.0,F
 1,1,Sale item,2021-03-01 11:34:05,1.0,F
 2,1,The order enters the payment from the sales inferface,2021-03-01 11:34:06,1.0,F
