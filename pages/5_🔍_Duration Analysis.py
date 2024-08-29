@@ -2,7 +2,7 @@ import streamlit as st
 import datetime 
 import pandas as pd
 
-st.set_page_config(page_title="PM4PY - Duration Analysis")
+st.set_page_config(page_title="PM4POS - Duration Analysis")
 
 st.title('Duration Analysis')
 st.markdown("""Here the attributes affecting duration of each order can be identified. For this purpose, suitable regression analysis structure is implemented.""")

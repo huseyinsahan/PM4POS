@@ -3,7 +3,7 @@ import pandas as pd
 import datetime as dt
 from utils import *
 
-st.set_page_config(page_title="PM4PY")
+st.set_page_config(page_title="PM4POS")
 
 st.title('Welcome')
 st.header('PM4POS - Process Mining for Point of Sales Context')

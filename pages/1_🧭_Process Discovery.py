@@ -5,7 +5,7 @@ from utils import *
 
 
 sample = pd.read_csv('cache.csv', index_col = 0)
-st.set_page_config(page_title="PM4PY - Process Discovery")
+st.set_page_config(page_title="PM4POS - Process Discovery")
 
 st.title('Process Discovery')
 st.markdown("""Here you can discover the process benefitting from Directly Follows Graph along with its descriptive table.""")

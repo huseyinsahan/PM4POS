@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-st.set_page_config(page_title="PM4PY - Order Analysis")
+st.set_page_config(page_title="PM4POS - Order Analysis")
 
 st.title('Order Analysis')
 st.markdown("""Here eventlogs can be analyzed in terms of order durations.""")
